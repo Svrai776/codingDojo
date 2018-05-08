@@ -1,0 +1,142 @@
+body{
+    width: 960px;
+    margin: 10px;
+}
+
+.maincontainer{
+    background: linear-gradient(to bottom, #2b1a1f , #6f5964 100%);
+}
+.container2{
+    padding-bottom: 10px;
+}
+.header-wrapper{
+    padding:4px;
+}
+
+header{
+    background-color: #F8F8F8;
+    height: 100px;
+    width: 950px;
+
+}
+
+h1{
+    display: inline;
+    position:absolute; left:100px;
+
+}
+
+h2{
+    display: inline;
+    position:absolute; right: 203px;
+    margin-top: 29px;
+}
+
+#photo-of-me{
+    height:362px;
+    width: 424px;
+    margin:9px;
+
+}
+
+.img-me{
+    background-color: grey;
+    display: inline-block;
+    height: 386px;
+    width: 441px;
+    margin: 10px;
+
+
+}
+
+.about-section{
+    background-color:#EEE7EE;
+    display: inline-block;
+    vertical-align: top;
+    height: 386px;
+    width: 486px;
+    margin-top: 10px;
+}
+
+h3{
+
+    background: linear-gradient(to bottom, rgb(177, 177, 181) 0%, rgb(141, 140, 152) 59%);
+    font-size: 28px;
+    height:37px;
+    width: 474px;
+    margin:0px;
+    font-size: 32px;
+    padding: 6px;
+    color: white;
+}
+
+p.firstparagraph{
+    margin: 5px;
+    font-size: 20px;
+    height: 124px;
+}
+
+a{
+    margin: 5px;
+    color:#45333B;
+}
+
+.column-1,
+.column-2,
+.column-3{
+
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #EEE7EE;
+    margin-left: 14px;
+}
+
+.img1{
+    width: 283px;
+    display: inline-block;
+}
+
+.secondrow-h3{
+    width: 276px;
+    padding: 0px;
+    display: inline-block;
+    font-size: 28px;
+    padding: 12px;
+
+}
+
+.technologies{
+    width: 288px;
+    padding: 6px;
+
+}
+
+p{
+    height: 197px;
+    font-size: 17px;
+    margin-left: 9px;
+}
+
+.img2{
+    height: 53px;
+    margin-top: 11px;
+    margin-left: 3px;
+
+}
+.submit{
+    text-align: center;
+
+}
+button{
+    background-color: #407D60;
+    height: 37px;
+    width: 120px;
+    border: solid darkgreen 1px;
+    font-size: 14px;
+    color: whitesmoke;
+    box-shadow: 10px 10px 5px grey;
+    margin-bottom: 26px;
+    margin-top: 14px;
+    border-radius: 68px;
+}
