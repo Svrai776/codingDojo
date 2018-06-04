@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>My jQuery Basic Assignment!</title>
+
+</head>
+<body>
+<div class="row1">
+    <button class= 'addRed' >AddClass</button>
+    <h1>AddClass</h1>
+    <p>This is the best!</p>
+</div>
+
+<hr>
+
+<div class="row2">
+        <button class = 'slideToggle' >Slidetoggle</button>
+        <h1 id='hide'>Slidetoggle</h1>
+        <p>This is Cool!</p>
+</div>
+
+<hr>
+
+<div class="row3">
+        <button class= 'append'>Append</button>
+        <h1 id='show'>Append</h1>
+        <p></p>
+</div>
+
+<button class= "addClassFeat">Add color to all buttons </button>
+
+<hr>
+
+
+
+<script>
+    $('.addRed').click (function(){
+        $(this).css('color, red')
+    })
+    $('.slideToggle').click(function(){
+        $('.slideToggle').slideToggle("slow", '')
+    })
+
+    $('.append').click(function(){
+        $('.append').append ('<p> Test P </p>')
+    })
+
+   $('#hide').click(function(){
+       $('#hide').hide()
+   })
+   $('#show').click(function(){
+       $('#show').show()
+   })
+
+   $('h1').hover(function(){
+       $('h1').text('Lets Swith it up')
+   })
+
+   $('p').hover(function(){
+       $('p').fadeOut()
+   })
+
+    $('p').hover(function(){
+       $('p').fadeIn()
+   })
+
+   $('p').click(function(){
+       $('p').slideUp()
+   })
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>
